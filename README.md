@@ -22,21 +22,54 @@
 
 #### **b) Ventajas y limitaciones**
 
-**OSI**  
-- **Ventajas**  
-  - ✓ Modelo detallado y muy estructurado.  
-  - ✓ Facilita la enseñanza y el estudio de las redes.  
-- **Limitaciones**  
-  - ✗ Demasiado complejo de implementar totalmente.  
-  - ✗ Nunca se adoptó por completo de forma comercial.
+## **Ventajas y Limitaciones de los Modelos OSI y TCP/IP**
 
-**TCP/IP**  
-- **Ventajas**  
-  - ✓ Estandarizado en la práctica y base de Internet.  
-  - ✓ Robustez y sencillez en entornos reales.  
-- **Limitaciones**  
-  - ✗ Menos detallado que OSI en cuanto a capas específicas.  
-  - ✗ Algunas funcionalidades (p.ej. presentación y sesión) no están claramente definidas.
+### **Modelo OSI**
+
+#### **Ventajas**
+1. **Estructura clara**  
+   Permite organizar los servicios de red en siete capas específicas, lo que facilita la enseñanza y la comprensión de cada función.
+
+2. **Modularidad**  
+   Cada capa se comunica sólo con la capa superior e inferior, resultando más sencillo el diseño, depuración y mantenimiento de redes.
+
+3. **Estándar de referencia**  
+   Aunque no se emplee en su totalidad, sirvió de base para desarrollar y estandarizar diversos protocolos, influyendo en la forma en que hoy se conciben las redes.
+
+#### **Limitaciones**
+1. **Teórico y complejo**  
+   No ha sido adoptado en su totalidad debido a que muchas de sus capas y funciones no son necesarias o se implementan de forma distinta en la práctica.
+
+2. **Escasa adopción total**  
+   Las implementaciones completas de OSI no prosperaron comercialmente frente a soluciones más sencillas como TCP/IP.
+
+3. **Más costoso de implementar**  
+   Tanto en recursos de software como en hardware, su adopción íntegra demandaba esfuerzos considerables, lo que limitó su popularidad.
+
+---
+
+### **Modelo TCP/IP**
+
+#### **Ventajas**
+1. **Práctico y probado**  
+   Se ha convertido en el pilar fundamental de Internet, con una adopción masiva y un historial de fiabilidad.
+
+2. **Menos complejo**  
+   Agrupa varias funciones (Sesión, Presentación y Aplicación) en una sola capa, simplificando la arquitectura en tan solo cuatro capas.
+
+3. **Robustez y escalabilidad**  
+   Demuestra que puede adaptarse al creciente tráfico de la red, integrando nuevas tecnologías y protocolos de manera efectiva.
+
+#### **Limitaciones**
+1. **Menor detalle en la división de capas**  
+   Al combinar varias funciones en la capa de Aplicación, no existe una separación clara como en OSI.
+
+2. **Carencia de capas intermedias**  
+   No posee capas específicas para Presentación o Sesión, dejando estos aspectos a criterio de las aplicaciones.
+
+3. **No fue diseñado con seguridad integrada**  
+   En su origen, no contemplaba mecanismos de seguridad avanzados, que se han ido añadiendo con extensiones y protocolos adicionales.
+
 
 ---
 
