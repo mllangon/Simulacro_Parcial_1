@@ -118,6 +118,3 @@ C = B \times \log_2(1 + \text{SNR})
 - \(C\): Capacidad del canal (bps)  
 - \(B\): Ancho de banda (Hz)  
 - \(\text{SNR}\): Relación señal/ruido en escala lineal
-
-```plaintext
-[Desarrollo de la pregunta, valores y conversiones numéricas, etc.]
