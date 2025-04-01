@@ -139,5 +139,5 @@ Mario_LLansó--> https://github.com/mllangon/Simulacro_Parcial_1.git
 ---
 
 # **Parte II: Capa Física y Ejercicios Prácticos**
-
+En el archivo SIMULACRO.pkt
 
